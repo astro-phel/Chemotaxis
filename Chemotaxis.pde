@@ -1,7 +1,7 @@
 Bacteria[] myBacteria;
 void setup() {
   size(700, 700);
-  myBacteria = new Bacteria[2000];
+  myBacteria = new Bacteria[1000];
   for (int i = 0; i < myBacteria.length; i++) {
     myBacteria[i] = new Bacteria((int)(Math.random() * width), (int)(Math.random() * height));
   }
